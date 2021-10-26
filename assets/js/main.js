@@ -62,7 +62,9 @@ $(document).ready(function(){
   		// other options
 	});
 
-
+       function alertFunc(){
+           alert("Hi there!!!, I'm just an alert");
+       }
 
 	// remove item
 	let removeCartItemsBtn = document.getElementsByClassName('btn-danger')
